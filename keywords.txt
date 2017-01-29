@@ -1,0 +1,20 @@
+##################################################################
+# Syntax Coloring Map For 
+# ClosedCube TCA9546A 4-Channel I2C Multiplexer/Switch With Reset Function Breakout Board
+##################################################################
+
+##################################################################
+# Datatypes (KEYWORD1)
+##################################################################
+
+ClosedCube_TCA9546A	KEYWORD1
+
+##################################################################
+# Methods and Functions (KEYWORD2)
+##################################################################
+
+begin KEYWORD2
+selectChannel KEYWORD2
+nextChannel KEYWORD2
+
+
