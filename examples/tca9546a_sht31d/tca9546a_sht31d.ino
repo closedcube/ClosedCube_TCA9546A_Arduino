@@ -12,10 +12,10 @@ Hardware connections for Arduino Uno and ClosedCube TCA9546A boards
 
 Hardware connections for ClosedCube SHT31-D and ClosedCube TCA9546A boards
   TCA9546A        SHT31-D 
-  SC0/SD0         SCl/SDA (sensor 1)
-  SC1/SD1         SCl/SDA (sensor 2)
-  SC2/SD2         SCl/SDA (sensor 3)
-  SC3/SD3         SCl/SDA (sensor 4)
+  SC0/SD0         SCL/SDA (sensor 1)
+  SC1/SD1         SCL/SDA (sensor 2)
+  SC2/SD2         SCL/SDA (sensor 3)
+  SC3/SD3         SCL/SDA (sensor 4)
 
   for each SHT31-D board connect to 3.3V DC and GND
 
