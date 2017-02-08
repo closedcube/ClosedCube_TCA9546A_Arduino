@@ -10,6 +10,7 @@ This is breakout board for [Texas Instruments TCA9546A](http://www.ti.com/produc
 <b>Arduino code fragment:</b>
 <pre>
 <code>
+
 void selectChannel(uint8_t channel)
 {
   if( channel >= 0 && channel < 4 ) {
@@ -35,6 +36,7 @@ void selectChannel(uint8_t channel)
     Serial.print(" (available channels 0,1,2 and 3)");
   }
 }
+
 </code>
 </pre>
 
