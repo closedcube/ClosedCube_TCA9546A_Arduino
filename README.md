@@ -7,7 +7,7 @@ This is breakout board for [Texas Instruments TCA9546A](http://www.ti.com/produc
 [![](https://github.com/closedcube/ClosedCube_TCA9546A_Arduino/blob/master/images/B360_TCA9546A_Pic1.jpg)](https://www.tindie.com/stores/closedcube/)
 [![](https://github.com/closedcube/ClosedCube_TCA9546A_Arduino/blob/master/images/B360_TCA9546A_Pic2.jpg)](https://www.tindie.com/stores/closedcube/)
 
-<b>Arduino code fragment:</b>
+<b>Alternative, you can use the following Arduino code fragment:</b>
 <pre>
 <code>
 
