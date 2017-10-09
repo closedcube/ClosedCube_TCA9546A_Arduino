@@ -4,6 +4,17 @@ ClosedCube TCA9546A 4-Channel I2C Multiplexer/Switch With Reset Function Breakou
 
 This is breakout board for [Texas Instruments TCA9546A](http://www.ti.com/product/TCA9546A) 4-Channel I2C Multiplexer/Switch With Reset Function
 
+**Features:**
+
+ - Active-Low Reset Input
+ - Three Address Pins, default I2C address is 0x77
+ - Channel Selection Via I2C Bus, in Any Combination
+ - Power-up With All Switch Channels Deselected
+ - Allows Voltage-Level Translation Between 1.8-V, 2.5-V, 3.3-V, and 5-V Buses
+ - No Glitch on Power-up 
+ - Supports Hot Insertion
+ - Low Standby Current
+
 [![](https://github.com/closedcube/ClosedCube_TCA9546A_Arduino/blob/master/images/B360_TCA9546A_Pic1.jpg)](https://www.tindie.com/stores/closedcube/)
 [![](https://github.com/closedcube/ClosedCube_TCA9546A_Arduino/blob/master/images/B360_TCA9546A_Pic2.jpg)](https://www.tindie.com/stores/closedcube/)
 
