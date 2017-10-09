@@ -13,9 +13,9 @@ ClosedCube_TCA9546A	KEYWORD1
 # Methods and Functions (KEYWORD2)
 ##################################################################
 
-begin KEYWORD2
-selectChannel KEYWORD2
-nextChannel KEYWORD2
-getChannel KEYWORD2
+begin	KEYWORD2
+selectChannel	KEYWORD2
+nextChannel	KEYWORD2
+getChannel	KEYWORD2
 
 
