@@ -69,7 +69,7 @@ uint8_t ClosedCube_TCA9546A::selectChannel(uint8_t channel) {
 		return Wire.endTransmission();
 	}
 	else {
-		return 999;
+		return 0xff;
 	}
 }
 
