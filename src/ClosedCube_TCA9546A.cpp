@@ -44,7 +44,19 @@ void ClosedCube_TCA9546A::begin(uint8_t address) {
 }
 
 uint8_t ClosedCube_TCA9546A::getChannel() {
-	return _currentChannel;
+	byte addr_read = (_address) | 0b10000000;
+	Wire.requestFrom(addr_read, 1);
+	byte channel = Wire.read();
+	switch (channel) {
+	case 0x01:
+		return 0;
+	case 0x02:
+		return 1;
+	case 0x04:
+		return 2;
+	case 0x08:
+		return 3;
+	}
 }
 
 uint8_t ClosedCube_TCA9546A::selectChannel(uint8_t channel) {
